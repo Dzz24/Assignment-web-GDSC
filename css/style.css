@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+    scroll-behavior: smooth;
+}
+.head{
+    background-color: #372d3b;
+    color: #ffffde;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+}
+
+#text{
+    z-index: 1;
+}
+
+.image{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+}
+.navbar-nav{
+    font-weight: 600;
+}
+.navbar{
+    background-color: #372d3b;
+    color: #ffffde;
+    border-bottom: 1px solid #302733;
+}
+a.navbar-brand{
+    color: #d94362;
+    font-weight: 600;
+}
+a.nav-link{
+    color: #d94362;
+}
+.contactme{
+    padding: 10px 20px;
+    align-items: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #d94362;
+    color: #ffffde;
+    margin : 30px 10px 0px 0px;
+    border-radius: 25px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.More{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffde;
+    margin : 30px 10px 0px 0px;
+    border-radius: 25px;
+    border: 2px solid #ffffde;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.contactme:hover{
+    background-color: #962138;
+}
+
+.More:hover{
+    background-color: #fbfbbb;
+    color:#d94362;
+}
+#about{
+    background-color: #372d3b;
+}
+
+.container h1{
+    font-weight: 600;
+}
+.tombol{
+    padding: 15px 30px;
+    align-items: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #d94362;
+    color: #ffffde;
+    margin : 30px 10px 0px 0px;
+    border-radius: 25px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.tombol:hover{
+    background-color:#962138 ;
+}
+
+.last{
+    padding-top: 35vh;
+}
+#home{
+    background-color: #372d3b;
+    z-index: 3;
+}
+#about{
+    padding-top: 50px;
+}
+.abc:hover{
+    color: #d94362;
+}
